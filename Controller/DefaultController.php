@@ -14,6 +14,10 @@ class DefaultController extends AbstractController
      */
     public function home()
     {
+        # Récupération des articles dans la BDD par exemple ...
+        # $articles = ...
+
+        # Transmission des informations à la vue.
         $this->render('default/home');
     }
 
@@ -24,6 +28,11 @@ class DefaultController extends AbstractController
     public function contact()
     {
         $this->render('default/contact');
+    }
+
+    public function presentation()
+    {
+        $this->render('default/presentation');
     }
 
 }

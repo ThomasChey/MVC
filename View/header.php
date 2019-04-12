@@ -25,17 +25,17 @@
         <ul class="navbar-nav mr-0 mt-2 mt-lg-0 ">
 
             <li class="nav-item active">
-                <a class="nav-link" href=".">ActuNews MVC<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="http://localhost/MVC">ActuNews MVC<span class="sr-only">(current)</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="index.php">
+                <a class="nav-link" href="http://localhost/MVC">
                     Accueil
                 </a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="http://localhost/MVC/membre/connexion.php">
+                <a class="nav-link" href="http://localhost/MVC/membre/connexion">
                     Connexion
                 </a>
             </li>
@@ -47,7 +47,7 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="index.php?controller=membre&action=contact">
+                <a class="nav-link" href="index.php?controller=default&action=contact">
                     Contact
                 </a>
             </li>

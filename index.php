@@ -34,6 +34,12 @@ if($controller == 'default' && $action == 'contact'){
     $defaultCtrl->contact();
 }
 
+if ($controller == 'default' && $action == 'presentation') {
+
+    $membreCtrl = new DefaultController();
+    $membreCtrl->presentation();
+}
+
 if ($controller == 'membre' && $action == 'inscription') {
 
     $inscriptionCtrl = new MembreController();
@@ -45,6 +51,8 @@ if ($controller == 'membre' && $action == 'connexion') {
     $membreCtrl = new MembreController();
     $membreCtrl->connexion();
 }
+
+
 
 
 
